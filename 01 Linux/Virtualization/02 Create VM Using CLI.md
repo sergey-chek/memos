@@ -2,7 +2,7 @@
 
 ```bash
 virt-install \
-  --name ubuntu1804 \
+  --name vm_name \
   --ram 2048 \
   --disk path=/var/lib/libvirt/images/u19.qcow2,size=8 \
   --vcpus 2 \
