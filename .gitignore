@@ -1,2 +1,5 @@
 # Obsidian config dir
 .obsidian/
+
+# SWAP-files
+*.swp
