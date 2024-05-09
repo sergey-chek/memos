@@ -74,10 +74,10 @@ Images
 Code
 ----
 ```markdown
-\`\`\`python
+```python
 import random
 x = 10
-\`\`\`
+```
 ```
 
 Footnotes
@@ -114,8 +114,11 @@ Some hidden text
 Special Additions
 -----------------
 `#` - tag git entity
+
 `@` - tag person
+
 `\` - escape character
+
 `:` - paste emoji
 
 Alerts
@@ -146,6 +149,3 @@ graph TD;
     A-->B;
     A-->C;
 ```
-graph TD;
-    A-->B;
-    A-->C;
