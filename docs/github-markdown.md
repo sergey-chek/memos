@@ -80,6 +80,39 @@ x = 10
 \```
 ```
 
+Alerts
+------
+```markdown
+> [!NOTE]
+> Note text
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+> [!NOTE]
+> Note text
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
 Footnotes
 ---------
 ```markdown
@@ -120,32 +153,3 @@ Special Additions
 `\` - escape character
 
 `:` - paste emoji
-
-Alerts
-------
-```markdown
-> [!NOTE]
-> Note text
-
-> [!IMPORTANT]
-> Important text
-
-> [!WARNING]
-> Warning
-```
-> [!NOTE]
-> Note text
-
-> [!IMPORTANT]
-> Important text
-
-> [!WARNING]
-> Warning
-
-Graphs
-------
-```markdown
-graph TD;
-    A-->B;
-    A-->C;
-```
