@@ -1,2 +1,2 @@
-> [!NOTE]
-> IT notes that may be useful.
+# Memos
+My IT notes that may be useful.
