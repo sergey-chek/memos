@@ -74,10 +74,10 @@ Images
 Code
 ----
 ```markdown
-```python
+\```python
 import random
 x = 10
-```
+\```
 ```
 
 Footnotes
