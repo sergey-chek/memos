@@ -28,7 +28,7 @@ pass git remote add origin <origin>
 ## Cloning Store
 
 > [!NOTE]
-> Cloning Store
+> How to migrate GPG-key and password-store to a new PC.
 
 ```bash
 # Install and configure gpg and pass on a new PC
