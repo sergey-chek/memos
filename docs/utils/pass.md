@@ -1,3 +1,5 @@
+## General Commands
+
 ```bash
 # Install and init
 sudo dnf install pass
@@ -21,4 +23,23 @@ pass rm Email/example@gmail.com
 # If a git repo is initialised, pass creates a git commit each time when the store is changed
 pass git init
 pass git remote add origin <origin>
+```
+
+## Cloning Store
+```bash
+# Install and configure gpg and pass on a new PC
+sudo dnf install gpg pass
+
+# Export GPG-keys on the old PC
+gpg --export -a <gpg-id> > public.gpg
+gpg --export-secret-keys -a <gpg-id> > secret.gpg
+
+# import GPG key for the password-store on the new PC
+gpg --import <path/to/secret/gpg-key>
+
+# clone repo
+git clone https://... ~/.password-store
+
+# initialise store
+pass init <gpg-id>
 ```
