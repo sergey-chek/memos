@@ -5,4 +5,5 @@
 - Linux Utils
     - [pass](/docs/utils/pass.md)
     - [gpg](/docs/utils/gpg.md)
+    - [zip](/docs/utils/zip.md)
 - [GitHub Markdown](/docs/github-markdown.md)
