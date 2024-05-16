@@ -1,5 +1,3 @@
-# `gpg` utility
-
 ```bash
 # Install gpg
 $ sudo dnf install gpg
@@ -15,7 +13,7 @@ $ gpg -d -o <output-filename> <path/to/encrypted-file>  # decrypt
 
 # Export/import of GPG-keys
 $ gpg --export -a <gpg-id> > public.gpg
-$ gpg --export-secret-key -a <gpg-id> > secret.gpg
+$ gpg --export-secret-keys -a <gpg-id> > secret.gpg
 $ gpg --import <path/to/public/gpg-key>
 $ gpg --import <path/to/secret/gpg-key>
 

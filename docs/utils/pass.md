@@ -1,5 +1,3 @@
-# Password manager `pass`
-
 ```bash
 # Install and init
 $ sudo dnf install pass
