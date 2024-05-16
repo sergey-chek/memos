@@ -26,6 +26,10 @@ pass git remote add origin <origin>
 ```
 
 ## Cloning Store
+
+> [NOTE]
+> Cloning Store
+
 ```bash
 # Install and configure gpg and pass on a new PC
 sudo dnf install gpg pass
