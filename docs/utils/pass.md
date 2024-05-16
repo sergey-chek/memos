@@ -27,7 +27,7 @@ pass git remote add origin <origin>
 
 ## Cloning Store
 
-> [NOTE]
+> [!NOTE]
 > Cloning Store
 
 ```bash
